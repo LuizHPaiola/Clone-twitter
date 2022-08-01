@@ -14,7 +14,7 @@
       href="https://fonts.googleapis.com/css?family=Josefin+Sans:300,400,600,700&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="./CSS/style.css" />
     <title>Twitter</title>
   </head>
   <body>
@@ -89,5 +89,45 @@
       <!--Fim da direita-->
     </section>
     <!--Fim da página principal-->
+    <!--Página de login-->
+    <section class="login-page">
+      <!--Nav da pagina de login-->
+      <nav class="login-page-nav">
+        <ul>
+          <li class="brand">
+            <a href="#"><i class="fas fa-dove"></i></a>
+          </li>
+          <li>
+            <a href="#">About</a>
+          </li>
+          <li><a href="#">Language: English</a></li>
+        </ul>
+      </nav>
+      <!--Fim da nav da pag. de login-->
+      <div class="login">
+        <div class="login-content">
+          <h2>Log in to Twitter</h2>
+          <form action="login-form">
+            <input type="text" placeholder="Phone, email, or name" />
+            <input type="password" placeholder="Password" />
+            <div>
+              <button type="button" class="login-form-btn">Log In</button>
+              <input type="checkbox" class="login-form-checkbox" id="check" />
+              <label for="check">Remember me</label>
+              <a href="#">Forgot password?</a>
+            </div>
+          </form>
+        </div>
+        <footer class="login-footer">
+          <p>New to twitter? <a href="#">Sign up now</a></p>
+          <p>
+            Already using twitter via text message?
+            <a href="#">Activate your account</a>
+          </p>
+        </footer>
+      </div>
+      <!--Fim do login-->
+    </section>
+    <!--Fim da pagina de login-->
   </body>
 </html>
